@@ -4,11 +4,24 @@
   "description": "A C2C Website as a part of a College Group Project",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "author": "Prateek Sharma",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.5.4"
-  }
+    "start": "npm run lite",
+    "lite-server": "^2.5.4",
+    "lite": "lite-server"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prateekxsharma/c2c-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prateekxsharma/c2c-website/issues"
+  },
+  "homepage": "https://github.com/prateekxsharma/c2c-website#readme"
 }
